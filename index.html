@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <style>
+      #next-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        border-bottom: 1px solid rgb(200, 200, 200);
+      }
+
+      #next-navbar > div {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        font-size: 14px;
+      }
+
+      #next-navbar > div p:nth-child(5) {
+        color: rgb(237, 4, 55);
+        font-weight: 600;
+      }
+
+      #next-navbar > div:nth-child(2) {
+        gap: 10px;
+      }
+
+      #next-navbar > div button:nth-child(1) {
+        background-color: rgb(193, 216, 225);
+        color: blue;
+        padding: 10px;
+        border: 0;
+        border-radius: 7px;
+      }
+
+      #next-navbar > div button:nth-child(2) {
+        color: rgb(237, 4, 55);
+        background-color: white;
+        padding: 10px;
+        border: 1px solid rgb(237, 4, 55);
+        border-radius: 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="next-navbar">
+        <img src="masai-logo.png" alt="" width="100px" />
+        <div>
+          <p>COURSES</p>
+          <p>FEES & ISA</p>
+          <p>ABOUT US</p>
+          <p>HIRE FROM US</p>
+          <p>FAQ</p>
+          <p>EVENTS</p>
+        </div>
+        <div>
+          <button>REFER & EARN</button>
+          <button>SIGN UP</button>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
